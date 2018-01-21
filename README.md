@@ -24,7 +24,7 @@ function updateField(state, action) {
       ...state.first,
       [action.someId] : {
         ...state.first[action.someId],
-          second : action.someValue
+        second : action.someValue
       }
     }
   }
